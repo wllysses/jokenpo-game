@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'sunny fever';
+    src: url(../fonts/Sunny\ Fever.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -22,13 +27,19 @@ body {
     width: 300px;
 }
 
+.container h1 {
+    font-family: 'sunny fever';
+    font-size: 50px;
+    text-decoration: underline;
+}
+
 .container #inputPlayer {
     width: 200px;
     height: 40px;
     padding-left: 10px;
     border: 1px solid #45EAFF;
     outline: none;
-    margin-bottom: 5px;
+    margin: 5px auto;
 }
 
 .container .info {

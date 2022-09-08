@@ -12,6 +12,11 @@ function getPlayerResp(resp) {
 }
 
 function compareAnswer(responsePc, responsePlayer) {
+    if(responsePlayer == '') {
+        alert('Preencha o campo obrigatório!')
+        return
+    }
+
     if(responsePlayer == 0 && responsePc == 0) {
         res.innerHTML = `<p>Você escolheu pedra(${responsePlayer}) e o algoritmo escolheu pedra(${responsePc}). PARABÉNS, VOCÊ VENCEU!</p>`
     } else if(responsePlayer == 1 && responsePc == 1) {
