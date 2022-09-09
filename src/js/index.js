@@ -52,7 +52,7 @@ function compareAnswer(responsePc, responsePlayer) {
 
     if(responsePlayer == responsePc) {
         res.innerHTML =     `
-                                
+                                <h2>Resultado</h2>
                                 <div class="placar">
                                     <div class="player">
                                         <img src="${playerMoveImage}" alt="Jogador" id="playerResult">
@@ -68,7 +68,7 @@ function compareAnswer(responsePc, responsePlayer) {
                             `
     } else {
         res.innerHTML =     `
-                                
+                                <h2>Resultado</h2>
                                 <div class="placar">
                                     <div class="player">
                                         <img src="${playerMoveImage}" alt="Jogador" id="playerResult">
